@@ -27,7 +27,7 @@ export default function UrlForm() {
             return;
         }
 
-        setShortened(`https://your-app-name.vercel.app/${alias}`);
+        setShortened(`https://mp-55-git-main-rianna-js-projects.vercel.app/${alias}`);
         setUrl("");
         setAlias("");
     }
@@ -47,7 +47,7 @@ export default function UrlForm() {
                 />
                 <input
                     type="text"
-                    placeholder="Choose an alias (e.g. rickroll)"
+                    placeholder="Choose an alias (e.g. total drama island)"
                     value={alias}
                     onChange={(e) => setAlias(e.target.value)}
                     required
@@ -65,7 +65,7 @@ export default function UrlForm() {
 
             {shortened && (
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
-                    <p style={{ fontSize: "1.1rem" }}>Your shortened URL:</p>
+                    <p style={{ fontSize: "1.1rem" }}>Your shortened URL,enjoy :</p>
                     <Link href={shortened} style={{ color: "#f97316", textDecoration: "underline", fontSize: "1.1rem" }}>{shortened}</Link>
 
                 </div>
