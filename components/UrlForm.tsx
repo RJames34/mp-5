@@ -27,7 +27,7 @@ export default function UrlForm() {
             return;
         }
 
-        setShortened(`https://mp-55-git-main-rianna-js-projects.vercel.app/${alias}`);
+        setShortened(`https://mp-55.vercel.app/${alias}`);
         setUrl("");
         setAlias("");
     }
